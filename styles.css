@@ -30,6 +30,7 @@ hr {
 .categories {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 button {
@@ -62,3 +63,48 @@ button:active {
     width: 70px;
 }
 
+.menu {
+    display: flex;
+    columns: 2;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.item-wrapper {
+    display: flex;
+    columns: 2;
+    flex: 1 1 0px;
+}
+
+img {
+    border: solid 3px #E493B3;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.item-details {
+    margin-left: 15px;
+}
+
+.item-name-price {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-bottom: solid #7d7d7d73;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.name {
+    letter-spacing: 2px;
+}
+
+.price {
+    color: #E493B3;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.item-description {
+    color: #51515196;
+}
