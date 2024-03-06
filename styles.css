@@ -73,7 +73,7 @@ button:active {
 .item-wrapper {
     display: flex;
     columns: 2;
-    flex: 1 1 0px;
+    flex: 1 1 45%;
 }
 
 img {
