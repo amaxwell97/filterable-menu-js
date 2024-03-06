@@ -17,7 +17,7 @@ const menuItems = [
         name: 'Buttermilk Pancakes',
         price: '$15.99',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        img: '',
+        img: './images/pancakes.jpg',
     },
     {
         id: 2,
@@ -38,7 +38,7 @@ const menuItems = [
         name: 'Egg Attack',
         price: '$22.99',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/burger-with-egg.jpg',
     },
     {
         id: 5,
