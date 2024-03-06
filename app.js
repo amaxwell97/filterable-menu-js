@@ -7,6 +7,10 @@ const breakfastBtn = document.querySelector('.breakfast-btn');
 const lunchBtn = document.querySelector('.lunch-btn');
 const dessertBtn = document.querySelector('.dessert-btn');
 
+//assign menu class to variable
+const menuSection = document.querySelector('.menu');
+
+//menu items
 const menuItems = [
     {
         id: 1,
@@ -79,3 +83,24 @@ const menuItems = [
         img: '',
     },
 ]
+
+window.addEventListener('DOMContentLoaded', function () {
+    let displayMenu = menuItems.map(function (item) {
+        return `<div class="item-1 item-wrapper">
+                    <div class="item-image-wrapper">
+                        <img src=${item.img} alt="" class="item-image">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-name-price">
+                            <h3 class="name">${item.name}</h3>
+                            <p class="price">${item.price}</p>
+                        </div>
+                        <p class="item-description">${item.description}</p>
+                    </div>
+                </div>`
+    })
+    console.log(displayMenu);
+    displayMenu = displayMenu.join('');
+    console.log(displayMenu);
+    menuSection.innerHTML = displayMenu;
+})
