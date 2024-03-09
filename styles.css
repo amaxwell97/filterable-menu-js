@@ -68,7 +68,7 @@ button:active {
     columns: 2;
     flex-wrap: wrap;
     column-gap: 20px;
-    row-gap: 10px;
+    row-gap: 30px;
 }
 
 .item-wrapper {
