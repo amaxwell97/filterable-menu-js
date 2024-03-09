@@ -26,7 +26,8 @@ const menuItems = [
         price: '$18.99',
         category: 'breakfast',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/eggs-benedict.jpg',
+        // https://www.pexels.com/photo/a-close-up-shot-of-a-delicious-eggs-benedict-7708514/
     },
     {
         id: 3,
@@ -34,7 +35,8 @@ const menuItems = [
         price: '$14.99',
         category: 'breakfast',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/bacon-egg-cheese-biscuit.jpg',
+        //https://www.pexels.com/photo/bacon-sandwich-on-plate-139746/
     },
     {
         id: 4,
@@ -50,7 +52,8 @@ const menuItems = [
         price: '$22.99',
         category: 'lunch',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/turkey-club.jpg',
+        //https://www.pexels.com/photo/sandwich-and-fries-16407730/
     },
     {
         id: 6,
@@ -58,7 +61,8 @@ const menuItems = [
         price: '$17.99',
         category: 'lunch',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/mediterranean-salad.jpg',
+        //https://www.pexels.com/photo/close-up-of-a-bowl-with-a-colorful-salad-16111857/
     },
     {
         id: 7,
@@ -66,7 +70,8 @@ const menuItems = [
         price: '$24.99',
         category: 'lunch',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/penne-rosa.jpg',
+        //https://www.pexels.com/photo/pasta-with-white-cheese-on-brown-ceramic-bowl-5419330/
     },
     {
         id: 8,
@@ -74,7 +79,8 @@ const menuItems = [
         price: '$10.99',
         category: 'dessert',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/chocolate-cake.jpg',
+        //https://www.pexels.com/photo/sliced-cake-on-plate-291528/
     },
     {
         id: 9,
@@ -82,7 +88,8 @@ const menuItems = [
         price: '$8.99',
         category: 'dessert',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/strawberry-milkshake.jpg',
+        //https://www.pexels.com/photo/close-up-shot-of-a-delicious-strawberry-smoothie-8169597/
     },
     {
         id: 10,
@@ -90,7 +97,8 @@ const menuItems = [
         price: '$9.99',
         category: 'dessert',
         description: 'Urna porttitor rhoncus dolor purus non enim praesent elementum. Nisi porta lorem mollis aliquam.',
-        img: '',
+        img: './images/churros.jpg',
+        //https://www.pexels.com/photo/churros-on-a-bowl-1730630/
     },
 ]
 
