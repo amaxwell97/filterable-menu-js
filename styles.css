@@ -67,7 +67,8 @@ button:active {
     display: flex;
     columns: 2;
     flex-wrap: wrap;
-    gap: 15px;
+    column-gap: 20px;
+    row-gap: 10px;
 }
 
 .item-wrapper {
@@ -80,6 +81,8 @@ img {
     border: solid 3px #E493B3;
     border-radius: 3px;
     width: 200px;
+    height: 150px;
+    object-fit:cover;
 }
 
 .item-details {
